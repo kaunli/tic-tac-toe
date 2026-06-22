@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe Game</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Online Tic Tac Toe Game">
+    <meta name="author" content="Kaunli Hehr">
+    <link rel="icon" href="../KH_LOGO.png">
+    <link href="ticTacToe.css" rel="stylesheet">
+    <script src="ticTacToe.js" defer></script>
+</head>
+<body>
+    <h1>Tic Tac Toe Game</h1>
+    <div id="score">
+        <h4>Score Board: </h4>
+        <table>
+            <tr><td class="score">Player X: </td></tr>
+            <tr><td class="score"><div id="xPlayer"></div></td></tr>
+            <tr><td class="score">Player O: </td></tr>
+            <tr><td class="score"><div id="oPlayer"></div></td></tr>
+        </table>
+    </div>
+    <table id="board">
+        <tr>
+            <td><button onclick="picked(0, 0)"></button></td>
+            <td><button onclick="picked(0, 1)"></button></td>
+            <td><button onclick="picked(0, 2)"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="picked(1, 0)"></button></td>
+            <td><button onclick="picked(1, 1)"></button></td>
+            <td><button onclick="picked(1, 2)"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="picked(2, 0)"></button></td>
+            <td><button onclick="picked(2, 1)"></button></td>
+            <td><button onclick="picked(2, 2)"></button></td>
+        </tr>
+    </table>
+    <br>
+    <button id="replay" onclick="replay()">Replay</button>
+</body>
+</html>
