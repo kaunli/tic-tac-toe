@@ -1,4 +1,4 @@
-❌⭕ Tic-Tac-Toe Game
+## ❌⭕ Tic-Tac-Toe Game
 
 A simple, interactive Tic-Tac-Toe game that allows two players to compete locally or play solo for quick practice and fun.
 
